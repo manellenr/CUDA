@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # README for CPU vs GPU Sorting Project
 
 This project compares the performance of the QuickSort algorithm executed on CPU and GPU. The CPU version uses a standard QuickSort, while the GPU version implements QuickSort using CUDA for parallelism.
@@ -15,6 +14,7 @@ This project compares the performance of the QuickSort algorithm executed on CPU
 ```bash
 gcc -o quicksort_cpu quicksort_cpu.c
 ./quicksort_cpu
+```
 
 ## Code Explanation
 
@@ -33,6 +33,4 @@ gcc -o quicksort_cpu quicksort_cpu.c
 This project demonstrates the significant performance improvement when using a GPU for parallel sorting, especially for large datasets. The GPU version is faster than the CPU version due to the parallel nature of the QuickSort algorithm and the massive parallelism offered by modern GPUs.
 
 By comparing CPU and GPU execution times, you can see how utilizing the GPU can drastically reduce the time needed to sort large arrays, making it a valuable approach for computationally heavy tasks such as sorting.
-=======
-# CUDA
->>>>>>> 4bba19fc7cc17999f0d5b41a58f7bb24f2374a36
+
